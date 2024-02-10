@@ -20,121 +20,46 @@ Understanding regex is crucial for web developers as it empowers you to handle v
 
 
 ## Table of Contents
-Introduction to Regular Expressions
+1. [Introduction to Regular Expressions](#introduction-to-regular-expressions)
+   - What are Regular Expressions?
+   - Basic Syntax and Patterns
 
-What are Regular Expressions?
+2. [Character Classes](#character-classes)
+   - Matching Single Characters
+   - Matching Ranges of Characters
+   - Negating Character Classes
 
-Basic Syntax and Patterns
+3. [Metacharacters](#metacharacters)
+   - Anchors: ^ and $
+   - Quantifiers: *, +, ?, {n}, {n,}, {n,m}
+   - Alternation: |
+   - Grouping: ()
+   - Escape Characters: \
 
-Character Classes
+4. [Character Escapes](#character-escapes)
+   - Escaping Special Characters
+   - Commonly Used Escape Sequences
 
-Matching Single Characters
+5. [Lookaheads and Lookbehinds](#lookaheads-and-lookbehinds)
+   - Positive Lookaheads
+   - Negative Lookaheads
+   - Positive Lookbehinds
+   - Negative Lookbehinds
 
-Matching Ranges of Characters
+6. [Backreferences](#backreferences)
+   - Capturing Groups
+   - Using Backreferences
 
-Negating Character Classes
+7. [Modifiers and Flags](#modifiers-and-flags)
+   - Case Insensitivity
+   - Global Matching
+   - Multiline Matching
+   - Sticky Matching
 
-Metacharacters
-
-Anchors: ^ and $
-
-Quantifiers: *, +, ?, {n}, {n,}, {n,m}
-
-Alternation: |
-
-Grouping: ()
-
-Escape Characters: \
-
-Character Escapes
-
-Escaping Special Characters
-
-Commonly Used Escape Sequences
-
-Lookaheads and Lookbehinds
-
-Positive Lookaheads
-
-Negative Lookaheads
-
-Positive Lookbehinds
-
-Negative Lookbehinds
-
-Backreferences
-
-Capturing Groups
-
-Using Backreferences
-
-Modifiers and Flags
-
-Case Insensitivity
-
-Global Matching
-
-Multiline Matching
-
-Sticky Matching
-
-Practical Examples and Use Cases
-
-Email Validation
-
-URL Extraction
-
-Data Manipulation
-
-Each section will provide a clear and concise explanation of the specific component of regex being discussed. Here are some code snippets to illustrate the usage of each component:
-
-Matching Single Characters:
-
-Example: /[aeiou]/ matches any vowel in a string.
-
-Anchors:
-
-Example: /^hello/ matches "hello" only if it appears at the beginning of a string.
-
-Quantifiers:
-
-Example: /a+/ matches one or more occurrences of the letter "a" in a string.
-
-Grouping:
-
-Example: /(abc)+/ matches "abc" or "abcabc" or "abcabcabc" and so on.
-
-Escape Characters:
-
-Example: /$/ matches the dollar sign character "$" in a string.
-
-Positive Lookaheads:
-
-Example: /(?=regex)/ matches a pattern only if it is followed by another pattern.
-
-Capturing Groups:
-
-Example: /(abc)/ captures the substring "abc" for further use.
-
-Case Insensitivity:
-
-Example: /regex/i matches a pattern case-insensitively.
-
-These code snippets are just a few examples to illustrate the usage of different regex components. Each section of the tutorial will provide more detailed explanations and additional examples.
-- [Anchors](#anchors)
-/^hello/ matches "hello" only if it appears at the beginning of a string.
-- [Quantifiers](#quantifiers)
-/a+/ matches one or more occurrences of the letter "a" in a string.
-- [OR Operator](#or-operator)
-
-- [Character Classes](#character-classes)
-- [Flags](#flags)
-- [Grouping and Capturing](#grouping-and-capturing)
-- [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+8. [Practical Examples and Use Cases](#practical-examples-and-use-cases)
+   - Email Validation
+   - URL Extraction
+   - Data Manipulation
 
 ## Regex Components
 
