@@ -161,5 +161,11 @@ These code snippets are just a few examples to illustrate the usage of different
 ### Look-ahead and Look-behind
 
 ## Author
+Hi, I'm Deven, a web developer with a passion for teaching and sharing knowledge. I have been working in the web development industry and have experience in front-end and back-end development, as well as full-stack application development.
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+You can find more projects, tutorials, and resources related to web development on my GitHub profile: [https://github.com/dcast217]. Feel free to explore and connect with me for any questions or collaborations related to this tutorial or other web development topics.
+
+I am dedicated to helping aspiring developers enhance their skills and succeed in their web development journey. If you have any feedback or suggestions for this tutorial, feel free to reach out to me through my GitHub profile.
+
+GitHub Profile: [https://github.com/dcast217]
+
